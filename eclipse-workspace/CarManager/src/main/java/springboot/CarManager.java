@@ -27,7 +27,7 @@ public class CarManager implements CommandLineRunner{
 	{
 		String sql = "INSERT INTO car (id, make, model, color, year) VALUES (?, ?, ?, ?, ?)";
         
-        int result = jdbcTemplate.update(sql, "2","Mercedes Benz", "C300", "Red", "2023");
+        int result = jdbcTemplate.update(sql, "3","Mercedes Benz", "C300", "Red", "2023");
          
         if (result > 0) {
             System.out.println("A new row has been inserted.");

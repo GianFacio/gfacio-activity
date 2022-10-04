@@ -1,10 +1,10 @@
-package net.javaguides.sms;
+package springboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StudentManagementSystemApplicationTests {
+class CarManagerTests {
 
 	@Test
 	void contextLoads() {
