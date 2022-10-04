@@ -21,7 +21,15 @@ public class CarManager implements CommandLineRunner{
 	
 	@Autowired
     private JdbcTemplate jdbcTemplate;
+
+	@Override
+	public void run(String... args) throws Exception
+	{
+		// TODO Auto-generated method stub
+		
+	}
 	
+	/**
 	@Override
 	public void run(String... args) throws Exception 
 	{
@@ -32,7 +40,7 @@ public class CarManager implements CommandLineRunner{
         if (result > 0) {
             System.out.println("A new row has been inserted.");
         }
-
-	}
+    }
+**/
 
 }
